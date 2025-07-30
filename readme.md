@@ -24,9 +24,11 @@ This project demonstrates how to connect to the **Zoom WebSocket server** and se
 
 3. Install dependencies:
    ```npm install ws && npm install typescript @types/ws --save-dev```
-    
-4. Compile the code:
+
+## Run the code
+
+1. Compile the code:
    ```npx tsc zoom-websocket.ts```
 
-5. Run the code:
+2. Run the code:
    ```node zoom-websocket.js```
