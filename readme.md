@@ -17,18 +17,16 @@ This project demonstrates how to connect to the **Zoom WebSocket server** and se
 ## Installation
 
 1. Create a new project:
-   ```bash
-   mkdir zoom-ws-demo && cd zoom-ws-demo
+   ```mkdir zoom-ws-demo && cd zoom-ws-demo```
 
 2. Initialize Node.js:
-   ```npm init -y
+   ```npm init -y```
 
 3. Install dependencies:
-   ```npm install ws
-      npm install typescript @types/ws --save-dev
+   ```npm install ws && npm install typescript @types/ws --save-dev```
     
 4. Compile the code:
-   ```npx tsc zoom-websocket.ts
+   ```npx tsc zoom-websocket.ts```
 
 5. Run the code:
-   ```node zoom-websocket.js
+   ```node zoom-websocket.js```
